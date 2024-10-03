@@ -1,0 +1,221 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/dev/mingw64/share/cmake-3.27/Modules/CMakeDetermineSystem.cmake:211 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Windows - 6.2.9200 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/dev/mingw64/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/dev/mingw64/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/dev/mingw64/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: C:/Program Files/LLVM/bin/clang.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+      
+      The C compiler identification is Clang, found in:
+        C:/Users/airat/source/repos/HTML-parser/build/CMakeFiles/3.27.8/CompilerIdC/a.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/dev/mingw64/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:1155 (message)"
+      - "C:/dev/mingw64/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:221 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/dev/mingw64/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Detecting C compiler /showIncludes prefix:
+        
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/dev/mingw64/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:1155 (message)"
+      - "C:/dev/mingw64/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:221 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/dev/mingw64/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Detecting C compiler /showIncludes prefix:
+        
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/dev/mingw64/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/dev/mingw64/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/dev/mingw64/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: C:/Program Files/LLVM/bin/clang++.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+      
+      The CXX compiler identification is Clang, found in:
+        C:/Users/airat/source/repos/HTML-parser/build/CMakeFiles/3.27.8/CompilerIdCXX/a.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/dev/mingw64/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:1155 (message)"
+      - "C:/dev/mingw64/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:221 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/dev/mingw64/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Detecting CXX compiler /showIncludes prefix:
+        
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/dev/mingw64/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:1155 (message)"
+      - "C:/dev/mingw64/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:221 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/dev/mingw64/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Detecting CXX compiler /showIncludes prefix:
+        
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/dev/mingw64/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/dev/mingw64/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/airat/source/repos/HTML-parser/build/CMakeFiles/CMakeScratch/TryCompile-9da6uk"
+      binary: "C:/Users/airat/source/repos/HTML-parser/build/CMakeFiles/CMakeScratch/TryCompile-9da6uk"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      VCPKG_INSTALLED_DIR: "C:/Users/airat/source/repos/HTML-parser/build/vcpkg_installed"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/dev/vcpkg"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/airat/source/repos/HTML-parser/build/CMakeFiles/CMakeScratch/TryCompile-9da6uk'
+        
+        Run Build Command(s): C:/dev/mingw64/bin/ninja.exe -v cmTC_323ea
+        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe   -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_323ea.dir/CMakeCCompilerABI.c.obj -MF CMakeFiles\\cmTC_323ea.dir\\CMakeCCompilerABI.c.obj.d -o CMakeFiles/cmTC_323ea.dir/CMakeCCompilerABI.c.obj -c C:/dev/mingw64/share/cmake-3.27/Modules/CMakeCCompilerABI.c
+        [2/2] cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -fuse-ld=lld-link -nostartfiles -nostdlib -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console CMakeFiles/cmTC_323ea.dir/CMakeCCompilerABI.c.obj -o cmTC_323ea.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_323ea.lib -Xlinker /pdb:cmTC_323ea.pdb -Xlinker /version:0.0     && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/dev/mingw64/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/dev/mingw64/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/airat/source/repos/HTML-parser/build/CMakeFiles/CMakeScratch/TryCompile-6gkh2n"
+      binary: "C:/Users/airat/source/repos/HTML-parser/build/CMakeFiles/CMakeScratch/TryCompile-6gkh2n"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      VCPKG_INSTALLED_DIR: "C:/Users/airat/source/repos/HTML-parser/build/vcpkg_installed"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/dev/vcpkg"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/airat/source/repos/HTML-parser/build/CMakeFiles/CMakeScratch/TryCompile-6gkh2n'
+        
+        Run Build Command(s): C:/dev/mingw64/bin/ninja.exe -v cmTC_7f03e
+        [1/2] C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE   -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_7f03e.dir/CMakeCXXCompilerABI.cpp.obj -MF CMakeFiles\\cmTC_7f03e.dir\\CMakeCXXCompilerABI.cpp.obj.d -o CMakeFiles/cmTC_7f03e.dir/CMakeCXXCompilerABI.cpp.obj -c C:/dev/mingw64/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp
+        [2/2] cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -fuse-ld=lld-link -nostartfiles -nostdlib -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console CMakeFiles/cmTC_7f03e.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_7f03e.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_7f03e.lib -Xlinker /pdb:cmTC_7f03e.pdb -Xlinker /version:0.0     && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/dev/mingw64/share/cmake-3.27/Modules/Internal/FeatureTesting.cmake:34 (try_compile)"
+      - "C:/dev/mingw64/share/cmake-3.27/Modules/Internal/FeatureTesting.cmake:83 (_record_compiler_features)"
+      - "C:/dev/mingw64/share/cmake-3.27/Modules/Compiler/CMakeCommonCompilerMacros.cmake:121 (_record_compiler_features_cxx)"
+      - "C:/dev/mingw64/share/cmake-3.27/Modules/CMakeDetermineCompileFeatures.cmake:70 (cmake_record_cxx_compile_features)"
+      - "C:/dev/mingw64/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:70 (CMAKE_DETERMINE_COMPILE_FEATURES)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting CXX compile features"
+    directories:
+      source: "C:/Users/airat/source/repos/HTML-parser/build/CMakeFiles/CMakeScratch/TryCompile-kpcbsl"
+      binary: "C:/Users/airat/source/repos/HTML-parser/build/CMakeFiles/CMakeScratch/TryCompile-kpcbsl"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      VCPKG_INSTALLED_DIR: "C:/Users/airat/source/repos/HTML-parser/build/vcpkg_installed"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/dev/vcpkg"
+    buildResult:
+      variable: "CMAKE_CXX_FEATURE_TEST"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/airat/source/repos/HTML-parser/build/CMakeFiles/CMakeScratch/TryCompile-kpcbsl'
+        
+        Run Build Command(s): C:/dev/mingw64/bin/ninja.exe -v cmTC_50441
+        [1/2] C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE   -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -std=c++14 -MD -MT CMakeFiles/cmTC_50441.dir/feature_tests.cxx.obj -MF CMakeFiles\\cmTC_50441.dir\\feature_tests.cxx.obj.d -o CMakeFiles/cmTC_50441.dir/feature_tests.cxx.obj -c C:/Users/airat/source/repos/HTML-parser/build/CMakeFiles/CMakeScratch/TryCompile-kpcbsl/feature_tests.cxx
+        [2/2] cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -fuse-ld=lld-link -nostartfiles -nostdlib -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console CMakeFiles/cmTC_50441.dir/feature_tests.cxx.obj -o cmTC_50441.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_50441.lib -Xlinker /pdb:cmTC_50441.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/dev/mingw64/share/cmake-3.27/Modules/Internal/FeatureTesting.cmake:34 (try_compile)"
+      - "C:/dev/mingw64/share/cmake-3.27/Modules/Internal/FeatureTesting.cmake:83 (_record_compiler_features)"
+      - "C:/dev/mingw64/share/cmake-3.27/Modules/Compiler/CMakeCommonCompilerMacros.cmake:129 (_record_compiler_features_cxx)"
+      - "C:/dev/mingw64/share/cmake-3.27/Modules/CMakeDetermineCompileFeatures.cmake:70 (cmake_record_cxx_compile_features)"
+      - "C:/dev/mingw64/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:70 (CMAKE_DETERMINE_COMPILE_FEATURES)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting CXX compile features"
+    directories:
+      source: "C:/Users/airat/source/repos/HTML-parser/build/CMakeFiles/CMakeScratch/TryCompile-dciazz"
+      binary: "C:/Users/airat/source/repos/HTML-parser/build/CMakeFiles/CMakeScratch/TryCompile-dciazz"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      VCPKG_INSTALLED_DIR: "C:/Users/airat/source/repos/HTML-parser/build/vcpkg_installed"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/dev/vcpkg"
+    buildResult:
+      variable: "CMAKE_CXX_FEATURE_TEST"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/airat/source/repos/HTML-parser/build/CMakeFiles/CMakeScratch/TryCompile-dciazz'
+        
+        Run Build Command(s): C:/dev/mingw64/bin/ninja.exe -v cmTC_e6ce6
+        [1/2] C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE   -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -std=c++14 -MD -MT CMakeFiles/cmTC_e6ce6.dir/feature_tests.cxx.obj -MF CMakeFiles\\cmTC_e6ce6.dir\\feature_tests.cxx.obj.d -o CMakeFiles/cmTC_e6ce6.dir/feature_tests.cxx.obj -c C:/Users/airat/source/repos/HTML-parser/build/CMakeFiles/CMakeScratch/TryCompile-dciazz/feature_tests.cxx
+        [2/2] cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -fuse-ld=lld-link -nostartfiles -nostdlib -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console CMakeFiles/cmTC_e6ce6.dir/feature_tests.cxx.obj -o cmTC_e6ce6.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_e6ce6.lib -Xlinker /pdb:cmTC_e6ce6.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        
+      exitCode: 0
+...

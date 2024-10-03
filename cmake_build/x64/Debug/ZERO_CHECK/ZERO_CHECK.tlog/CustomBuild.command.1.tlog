@@ -1,0 +1,10 @@
+^C:\USERS\AIRAT\SOURCE\REPOS\HTML-PARSER\CMAKE_BUILD\CMAKEFILES\5F68F44DDEA56D075E1FF32691D694CD\GENERATE.STAMP.RULE
+setlocal
+C:\dev\mingw64\bin\cmake.exe -SC:/Users/airat/source/repos/HTML-parser -BC:/Users/airat/source/repos/HTML-parser/cmake_build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/airat/source/repos/HTML-parser/cmake_build/ParserHTML.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

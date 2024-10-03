@@ -1,0 +1,3 @@
+C:/Users/airat/source/repos/HTML-parser/build/CMakeFiles/ParserHTML.dir
+C:/Users/airat/source/repos/HTML-parser/build/CMakeFiles/edit_cache.dir
+C:/Users/airat/source/repos/HTML-parser/build/CMakeFiles/rebuild_cache.dir

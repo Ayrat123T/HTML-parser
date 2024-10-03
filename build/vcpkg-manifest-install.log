@@ -1,0 +1,20 @@
+Detecting compiler hash for triplet x64-windows...
+Compiler found: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.34.31933/bin/Hostx64/x64/cl.exe
+All requested packages are currently installed.
+Total install time: 600 ns
+curl is compatible with built-in CMake targets:
+
+    find_package(CURL REQUIRED)
+    target_link_libraries(main PRIVATE CURL::libcurl)
+
+gumbo provides CMake targets:
+
+  # this is heuristically generated, and may not be correct
+  find_package(unofficial-gumbo CONFIG REQUIRED)
+  target_link_libraries(main PRIVATE unofficial::gumbo::gumbo)
+
+gumbo provides pkg-config modules:
+
+  # A fully-compliant HTML5 parser.
+  gumbo
+
