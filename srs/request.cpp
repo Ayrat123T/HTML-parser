@@ -7,13 +7,12 @@ std::string request::Request(std::string word) {
     std::string url = "https://www.merriam-webster.com/dictionary/" + word;
     curl_global_init(CURL_GLOBAL_ALL);
     if (curl) {
-        curl_easy_setopt(curl,
-        CURLOPT_WRITEFUNCTION,
-        static_cast < curl_write > ([](char * contents, size_t size,
-            size_t nmemb, std::string * data) -> size_t {
+        curl_easy_setopt(curl, CURLOPT_WRITEFUNCTION,
+                        static_cast<curl_write>([](char * contents, size_t size,
+                        size_t nmemb, std::string * data) -> size_t {
             size_t new_size = size * nmemb;
             if (data == NULL) {
-            return 0;
+                return 0;
             }
             data -> append(contents, new_size);
             return new_size;
@@ -23,7 +22,7 @@ std::string request::Request(std::string word) {
         curl_easy_setopt(curl, CURLOPT_USERAGENT, "simple Scraper");
         res_code = curl_easy_perform(curl);
         if (res_code != CURLE_OK) {
-        return curl_easy_strerror(res_code);
+            return curl_easy_strerror(res_code);
         }
         curl_easy_cleanup(curl);
     }
