@@ -333,6 +333,12 @@ Z_VCPKG_PWSH_PATH:FILEPATH=Z_VCPKG_PWSH_PATH-NOTFOUND
 // triplet
 _VCPKG_INSTALLED_DIR:PATH=C:/Users/airat/source/repos/HTML-parser/build/vcpkg_installed
 
+//The directory containing a CMake configuration file for gumbo-parser.
+gumbo-parser_DIR:PATH=gumbo-parser_DIR-NOTFOUND
+
+//The directory containing a CMake configuration file for unofficial-gumbo.
+unofficial-gumbo_DIR:PATH=C:/Users/airat/source/repos/HTML-parser/build/vcpkg_installed/x64-windows/share/unofficial-gumbo
+
 
 ########################
 # INTERNAL cache entries
@@ -500,8 +506,12 @@ CMAKE_TAPI-ADVANCED:INTERNAL=1
 CMAKE_TOOLCHAIN_FILE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CURL_LIBRARY_DEBUG
+CURL_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
 //vcpkg
 CURL_LIBRARY_DEBUG:INTERNAL=C:/Users/airat/source/repos/HTML-parser/build/vcpkg_installed/x64-windows/debug/lib/libcurl-d.lib
+//ADVANCED property for variable: CURL_LIBRARY_RELEASE
+CURL_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
 //vcpkg
 CURL_LIBRARY_RELEASE:INTERNAL=C:/Users/airat/source/repos/HTML-parser/build/vcpkg_installed/x64-windows/lib/libcurl.lib
 //Details about finding ZLIB

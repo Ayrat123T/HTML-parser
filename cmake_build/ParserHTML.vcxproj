@@ -321,7 +321,9 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C:\Users\airat\source\repos\HTML-parser\main.cpp" />
+    <ClCompile Include="C:\Users\airat\source\repos\HTML-parser\srs\main.cpp" />
+    <ClCompile Include="C:\Users\airat\source\repos\HTML-parser\srs\request.cpp" />
+    <ClInclude Include="C:\Users\airat\source\repos\HTML-parser\srs\request.h" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="C:\Users\airat\source\repos\HTML-parser\cmake_build\ZERO_CHECK.vcxproj">

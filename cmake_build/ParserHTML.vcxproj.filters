@@ -1,14 +1,25 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\airat\source\repos\HTML-parser\main.cpp">
+    <ClCompile Include="C:\Users\airat\source\repos\HTML-parser\srs\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="C:\Users\airat\source\repos\HTML-parser\srs\request.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\airat\source\repos\HTML-parser\srs\request.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="C:\Users\airat\source\repos\HTML-parser\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{657C6C31-AC4B-3214-8E25-6ADB90D0D2A1}</UniqueIdentifier>
+    </Filter>
     <Filter Include="Source Files">
       <UniqueIdentifier>{39680B41-A023-3AC7-B26A-8CB694A8ECB6}</UniqueIdentifier>
     </Filter>

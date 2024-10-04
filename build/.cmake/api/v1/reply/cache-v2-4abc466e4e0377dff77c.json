@@ -1314,6 +1314,10 @@
 			"properties" : 
 			[
 				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
 					"name" : "HELPSTRING",
 					"value" : "vcpkg"
 				}
@@ -1325,6 +1329,10 @@
 			"name" : "CURL_LIBRARY_RELEASE",
 			"properties" : 
 			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
 				{
 					"name" : "HELPSTRING",
 					"value" : "vcpkg"
@@ -1708,6 +1716,30 @@
 			],
 			"type" : "PATH",
 			"value" : "C:/Users/airat/source/repos/HTML-parser/build/vcpkg_installed"
+		},
+		{
+			"name" : "gumbo-parser_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for gumbo-parser."
+				}
+			],
+			"type" : "PATH",
+			"value" : "gumbo-parser_DIR-NOTFOUND"
+		},
+		{
+			"name" : "unofficial-gumbo_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for unofficial-gumbo."
+				}
+			],
+			"type" : "PATH",
+			"value" : "C:/Users/airat/source/repos/HTML-parser/build/vcpkg_installed/x64-windows/share/unofficial-gumbo"
 		}
 	],
 	"kind" : "cache",
