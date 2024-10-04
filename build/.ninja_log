@@ -1,5 +1,5 @@
 # ninja log v5
 6	1753	7497283323934710	CMakeFiles/ParserHTML.dir/main.cpp.obj	66ab54bca21856e1
-1684	2381	7497292655478107	ParserHTML.exe	38702c58c2469c09
-8	1440	7497292651876676	CMakeFiles/ParserHTML.dir/srs/request.cpp.obj	1ef611e3a95f2eed
-5	1683	7497292654298583	CMakeFiles/ParserHTML.dir/srs/main.cpp.obj	64d05f493b9b1654
+7	700	7497475894334987	ParserHTML.exe	38702c58c2469c09
+8	1472	7497475574035699	CMakeFiles/ParserHTML.dir/srs/request.cpp.obj	1ef611e3a95f2eed
+5	1684	7497475576037939	CMakeFiles/ParserHTML.dir/srs/main.cpp.obj	64d05f493b9b1654

@@ -1,10 +1,9 @@
 #include "request.h"
 
-std::string request::Request(std::string word) {
+std::string request::Request(std::string & url, std::string & word) {
     CURLcode res_code = CURLE_FAILED_INIT;
     CURL * curl = curl_easy_init();
     std::string result;
-    std::string url = "https://www.merriam-webster.com/dictionary/" + word;
     curl_global_init(CURL_GLOBAL_ALL);
     if (curl) {
         curl_easy_setopt(curl, CURLOPT_WRITEFUNCTION,
@@ -18,7 +17,7 @@ std::string request::Request(std::string word) {
             return new_size;
         }));
         curl_easy_setopt(curl, CURLOPT_WRITEDATA, & result);
-        curl_easy_setopt(curl, CURLOPT_URL, url.c_str());
+        curl_easy_setopt(curl, CURLOPT_URL, (url + word).c_str());
         curl_easy_setopt(curl, CURLOPT_USERAGENT, "simple Scraper");
         res_code = curl_easy_perform(curl);
         if (res_code != CURLE_OK) {
@@ -30,7 +29,7 @@ std::string request::Request(std::string word) {
     return result;
 }
 
-std::string request::Scrape(std::string markup) {
+std::string request::Scrape(std::string & markup) {
     std::string res = "";
     GumboOutput *output = gumbo_parse_with_options(&kGumboDefaultOptions, markup.data(), markup.length());
     res += FindDefinitions(output->root);
@@ -79,7 +78,7 @@ std::string request::ExtractText(GumboNode *node) {
     }
 }
 
-std::string request::StrReplace(std::string search, std::string replace, std::string &subject) {
+std::string request::StrReplace(std::string search, std::string replace, std::string & subject) {
     size_t count = 0;
     for (std::string::size_type pos{};
         subject.npos != (pos = subject.find(search.data(), pos, search.length()));

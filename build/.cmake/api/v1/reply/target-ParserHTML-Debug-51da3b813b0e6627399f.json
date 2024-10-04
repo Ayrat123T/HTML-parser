@@ -15,18 +15,12 @@
 		[
 			"_add_executable",
 			"add_executable",
-			"target_link_libraries",
-			"set_target_properties",
-			"_find_package",
-			"include",
-			"find_package"
+			"target_link_libraries"
 		],
 		"files" : 
 		[
 			"C:/dev/vcpkg/scripts/buildsystems/vcpkg.cmake",
-			"CMakeLists.txt",
-			"build/vcpkg_installed/x64-windows/share/curl/CURLConfig.cmake",
-			"build/vcpkg_installed/x64-windows/share/curl/vcpkg-cmake-wrapper.cmake"
+			"CMakeLists.txt"
 		],
 		"nodes" : 
 		[
@@ -48,45 +42,7 @@
 			{
 				"command" : 2,
 				"file" : 1,
-				"line" : 15,
-				"parent" : 0
-			},
-			{
-				"command" : 6,
-				"file" : 1,
-				"line" : 11,
-				"parent" : 0
-			},
-			{
-				"command" : 5,
-				"file" : 0,
-				"line" : 813,
-				"parent" : 4
-			},
-			{
-				"file" : 3,
-				"parent" : 5
-			},
-			{
-				"command" : 4,
-				"file" : 3,
-				"line" : 11,
-				"parent" : 6
-			},
-			{
-				"file" : 2,
-				"parent" : 7
-			},
-			{
-				"command" : 3,
-				"file" : 2,
-				"line" : 85,
-				"parent" : 8
-			},
-			{
-				"command" : 2,
-				"file" : 1,
-				"line" : 14,
+				"line" : 19,
 				"parent" : 0
 			}
 		]
@@ -103,9 +59,9 @@
 			"includes" : 
 			[
 				{
-					"backtrace" : 10,
+					"backtrace" : 3,
 					"isSystem" : true,
-					"path" : "C:/Users/airat/source/repos/HTML-parser/build/vcpkg_installed/x64-windows/include"
+					"path" : "C:/dev/vcpkg/installed/x64-windows/include"
 				}
 			],
 			"language" : "CXX",
@@ -139,12 +95,7 @@
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "vcpkg_installed\\x64-windows\\debug\\lib\\gumbo.lib",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 9,
-				"fragment" : "vcpkg_installed\\x64-windows\\debug\\lib\\libcurl-d.lib",
+				"fragment" : "C:\\dev\\vcpkg\\installed\\x64-windows\\lib\\libcurl.lib",
 				"role" : "libraries"
 			},
 			{
